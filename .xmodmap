@@ -1,0 +1,17 @@
+remove Control = Control_L
+remove mod1 = Alt_L
+remove mod4 = Super_L
+remove mod4 = Hyper_L
+remove lock = Caps_Lock
+
+keycode 37 = Super_L NoSymbol Super_L
+keycode 115 = Alt_L Meta_L Alt_L Meta_L
+keycode 64 = Control_L NoSymbol Control_L
+keycode 66 = Hyper_L
+keycode any = Caps_Lock
+
+add Control = Control_L
+add mod1 = Alt_L Meta_L
+add mod3 = Hyper_L
+add mod4 = Super_L
+add lock = Caps_Lock
